@@ -151,6 +151,14 @@ print(predict_image_with_description(image_to_predict))
 ```
 This part of the code provides an example of how to use the function to predict the class of a lesion and get a description.
 
+
+Example output:
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 3s 3s/step
+Predicted Class: jd
+Description: Dysplastic Junctional Nevus: This is a dysplastic junctional nevus, a type of melanocytic lesion that is generally benign but may carry an increased risk of developing into melanoma. It should be monitored for any changes.
+
+Process finished with exit code 0
 ## Conclusion
 This skin lesion classification system is designed to help in the diagnosis of skin lesions through the use of deep learning. The NASNetMobile model is used as a base to extract features from the images, while additional layers are added to adapt to the specificities of the skin lesion dataset. The system provides a detailed description for each type of lesion, making it a useful tool for users and healthcare professionals in evaluating skin lesions.
 
